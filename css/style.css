@@ -93,3 +93,46 @@ footer {
         vertical-align: top;
     }
 }
+
+@media (max-width:780px){
+    .secao {
+        width: 70%;
+        border-radius: 5px;
+        padding: 10%;
+        vertical-align: middle;
+    }
+
+    .secao img {
+        width: 25%;
+        margin-right: 10px;
+    }
+
+    .secao__title {
+        display: inline-block;
+        margin: 0;
+        width: 65%;
+        vertical-align: top;
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .redes-sociais img {
+        width: 15%;
+        margin: 0px 10px;
+    }
+
+    footer {
+        bottom: 0px;    
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .secao__cargo {
+        width: 75%;
+        margin-left: 32%;
+        margin-top: 0px;
+        text-align: left;
+        vertical-align: top;
+}
+}
