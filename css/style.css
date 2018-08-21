@@ -1,0 +1,95 @@
+/* GERAL*/
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fundo.png);
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin: 0;
+       
+}
+
+.secao__title {
+    text-align: center;
+    color: #5D1277;
+}
+
+p {
+    text-align: center;
+    color: #4f4f4f;
+}
+
+/*Sessão 1 */
+/*definir tamanho para divs ficarem um de lado e outro de outro */
+.secao {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    width: 30%;
+    margin: 90px auto 0 auto;
+    border-radius: 10px;
+    box-shadow: -3px 3px 30px rgba(0,0,0,0.30)
+
+}
+
+.secao img {
+    width: 150px;
+}
+/* .seletor seleciona uma classe no html */
+
+.redes-sociais img {
+    width: 50px;
+    margin: 0px 5px;
+}
+
+footer {
+    bottom: 0px;    
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+@media (max-width:425px) {
+    .secao {
+        width: 100%;
+        border-radius: 0;
+        padding: 10%;
+        vertical-align: middle;
+        margin-top: 47%;
+    }
+
+    .secao img {
+        width: 25%;
+        margin-right: 10px;
+    }
+
+    .secao__title {
+        display: inline-block;
+        margin: 0;
+        width: 65%;
+        vertical-align: top;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .redes-sociais img {
+        width: 15%;
+        margin: 0px 10px;
+    }
+
+    footer {
+        bottom: 0px;    
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .secao__cargo {
+        width: 75%;
+        margin-left: 32%;
+        margin-top: 0px;
+        text-align: left;
+        vertical-align: top;
+    }
+}
